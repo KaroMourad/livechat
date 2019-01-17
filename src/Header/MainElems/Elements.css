@@ -1,0 +1,6 @@
+ul.menu li{
+    display:inline;
+}
+.menu {
+    float: right;
+}
