@@ -1,6 +1,10 @@
-ul.menu li{
-    display:inline;
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-.menu {
-    float: right;
+.menuIcon {
+    width: 32px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
 }

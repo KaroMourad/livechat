@@ -25,7 +25,7 @@ class Header extends Component {
         let headerHeight = '13vh';
         let bgColor = "rgba(0,0,0,0)";
         let boxShadow = "0 0 0 0";
-        if(this.state.scrolled) { headerHeight = '9vh'; bgColor = "rgba(255,255,255,1)";boxShadow = "1px 1px 5px #888888"}
+        if(this.state.scrolled) { headerHeight = '9vh'; bgColor = "rgba(255,255,255,1)";boxShadow = "0.5px 0.1px 15px #A0A0A0"}
         else { headerHeight = '13vh'; bgColor = "rgba(0,0,0,0)"; boxShadow = "0 0 0 0 " }
     
         return (
